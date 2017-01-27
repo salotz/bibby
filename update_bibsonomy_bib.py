@@ -1,5 +1,6 @@
 import bibsonomy
 
+
 def bibsonomy_post_to_bibtex(post):
     """Convert a bibsonomy post to a bibtex string"""
 
