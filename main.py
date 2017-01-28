@@ -1,6 +1,5 @@
 import bibsonomy
 
-
 def bibsonomy_post_to_bibtex(post):
     """Convert a bibsonomy post to a bibtex string"""
 
@@ -36,20 +35,3 @@ def write_bib(bibtex_strings, bib_target):
     with open(bib_target, 'w') as wf:
         for bibtex_str in bibtex_strings:
             wf.write(bibtex_str)
-
-if __name__ == "__main__":
-
-    import os.path as osp
-    USER = 'salotz'
-    TOKEN = "64154d88676a1cefa511b6a9e7401135"
-    bib_lib_path = "/home/salotz/Dropbox/papers-read/lib/"
-    bibsonomy_bib = osp.join(bib_lib_path, "bibsonomy-lib.bib")
-
-    # get the posts and report
-    posts = retrieve_bibsonomy_posts(USER, TOKEN)
-    print("Retrieved {} reference posts".format(len(posts)))
-    # convert to bibtex file strings
-    bibstrings = posts_to_bibtex_strings(posts)
-    # write them to the normal target
-    write_bib(bibstrings, bibsonomy_bib)
-
