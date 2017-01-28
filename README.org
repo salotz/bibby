@@ -1,0 +1,12 @@
+* Bibby
+
+Bibby is just a cli and little python library for doing useful things
+with the bibsonomy API.
+
+Right now there is enough for fetching you current citations and
+writing it to a file and nothing else.
+
+Requires:
+- bibsonomy
+- optional :: Click - for cli
+
