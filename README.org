@@ -8,5 +8,16 @@ writing it to a file and nothing else.
 
 Requires:
 - bibsonomy
-- optional :: Click - for cli
+- Click - for cli
 
+** Installation
+
+Clone and then just run setup.py e.g.:
+
+#+BEGIN_SRC bash
+  cd bibby
+  pip install --editable .
+#+END_SRC
+** Goals 
+
+- Management of the config file .bibby for storing users and tokens

@@ -1,0 +1,9 @@
+bibby/__init__.py
+bibby/bibby.py
+bibby/cli.py
+bibby.egg-info/PKG-INFO
+bibby.egg-info/SOURCES.txt
+bibby.egg-info/dependency_links.txt
+bibby.egg-info/entry_points.txt
+bibby.egg-info/requires.txt
+bibby.egg-info/top_level.txt

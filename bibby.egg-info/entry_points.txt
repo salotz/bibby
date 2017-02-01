@@ -1,0 +1,3 @@
+[console_scripts]
+bibby = bibby.cli:cli
+
