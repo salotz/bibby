@@ -9,15 +9,19 @@ writing it to a file and nothing else.
 Requires:
 - bibsonomy
 - Click - for cli
+- Pybtex
 
 ** Installation
 
-Clone and then just run setup.py e.g.:
-
 #+BEGIN_SRC bash
-  cd bibby
-  pip install --editable .
+  pip install bibby
 #+END_SRC
+
+You can retrieve your publications using:
+#+BEGIN_SRC bash
+bibby fetch $USERNAME $API_TOKEN $BIB_PATH
+#+END_SRC
+
 ** Goals 
 
-- Management of the config file .bibby for storing users and tokens
+- [ ] Storing users and tokens securely
