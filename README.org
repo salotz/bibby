@@ -13,8 +13,16 @@ Requires:
 
 ** Installation
 
+Use the dev one for now:
+
 #+BEGIN_SRC bash
-  pip install bibby
+  pip install git+https://github.com/salotz/bibby.git
+#+END_SRC
+
+Since it is a command line application I suggest using ~pipx~:
+
+#+BEGIN_SRC bash
+  pipx install git+https://github.com/salotz/bibby.git
 #+END_SRC
 
 You can retrieve your publications using:
